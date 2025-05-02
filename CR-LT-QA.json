@@ -1093,15 +1093,15 @@
       "Francesco Totti": "Q20110"
     },
     "Inference Rule": "Ilary Blasi and Francesco Totti's marriage should have lasted more than 25 years to make the answer correct.",
-    "KG Triples": "1- (Ilary Blast, spouse, Francesco Totti {start time, 2005}{end time, 2022})",
+    "KG Triples": "1- (Ilary Blasi, spouse, Francesco Totti {start time, 2005}{end time, 2022})",
     "Reasoning Steps": [
       {
         "Step": "Ilary Blasi and Francesco Totti's marriage began in 2005.",
-        "facts used in this step": "(Ilary Blast, spouse, Francesco Totti {start time, 2005})"
+        "facts used in this step": "(Ilary Blasi, spouse, Francesco Totti {start time, 2005})"
       },
       {
         "Step": "Ilary Blasi and Francesco Totti's marriage ended in 2022.",
-        "facts used in this step": "(Ilary Blast, spouse, Francesco Totti {end time, 2022})"
+        "facts used in this step": "(Ilary Blasi, spouse, Francesco Totti {end time, 2022})"
       },
       {
         "Step": "Ilary Blasi and Francesco Totti's marriage lasted 17 years, which is less than 25 years."
