@@ -512,7 +512,7 @@
   },
   {
     "id": "S19",
-    "query": "Is the It's Hyorish an older album than Nasime vasl?",
+    "query": "Is the It's Hyorish an older album than Nasime Vasl?",
     "answer": false,
     "KG Entities": {
       "It's Hyorish": "Q11221611",
@@ -704,20 +704,20 @@
   },
   {
     "id": "S26",
-    "query": "Can I hold Gamevcore in a basket?",
+    "query": "Can I hold Dokoo in a basket?",
     "answer": false,
     "KG Entities": {
-      "Gamevcore": "Q123678584"
+      "Dokoo": "Q10267901"
     },
-    "Inference Rule": "Gamevcore must be a small physical object for people to be able to hold it in a basket.",
-    "KG Triples": "1- (Gamevcore, instance of, website)",
+    "Inference Rule": "Dokoo must be a small physical object for people to be able to hold it in a basket.",
+    "KG Triples": "1- (Dokoo, instance of, website)",
     "Reasoning Steps": [
       {
-        "Step": "Gamevcore is a website.",
-        "facts used in this step": "(Gamevcore, instance of, website)"
+        "Step": "Dokoo is a website.",
+        "facts used in this step": "(Dokoo, instance of, website)"
       },
       {
-        "Step": "Gamevcore is not a small physical object, so it cannot be held in a basket."
+        "Step": "Dokoo is not a small physical object, so it cannot be held in a basket."
       }
     ],
     "Reasoning Strategy": [
@@ -726,16 +726,16 @@
   },
   {
     "id": "S27",
-    "query": "Can a snake swallow a Spähpanzer SP I.C?",
+    "query": "Can a snake swallow a Spähpanzer SP I.C.?",
     "answer": false,
     "KG Entities": {
       "Spähpanzer SP I.C.": "Q2314731"
     },
-    "Inference Rule": "The size of Spähpanzer SP I.C must be small enough for a snake to be able to swallow it.",
+    "Inference Rule": "The size of Spähpanzer SP I.C. must be small enough for a snake to be able to swallow it.",
     "KG Triples": "1- (Spähpanzer SP I.C., description, 1962 light tank prototype model)",
     "Reasoning Steps": [
       {
-        "Step": "Spähpanzer SP I.C is a 1962 light tank prototype model.",
+        "Step": "Spähpanzer SP I.C. is a 1962 light tank prototype model.",
         "facts used in this step": "(Spähpanzer SP I.C., description, 1962 light tank prototype model)"
       },
       {
@@ -1088,21 +1088,21 @@
   {
     "id": "S39",
     "query": "Did Ilary Blasi celebrate a silver anniversary with Francesco Totti?",
-    "answer": "Did Ilary Blasi celebrate a silver anniversary with Francesco Totti?",
+    "answer": false,
     "KG Entities": {
       "Ilary Blasi": "Q287186",
       "Francesco Totti": "Q20110"
     },
     "Inference Rule": "Ilary Blasi and Francesco Totti's marriage should have lasted more than 25 years to make the answer correct.",
-    "KG Triples": "1- (Ilary Blast, spouse, Francesco Totti {start time, 2005}{end time, 2022})",
+    "KG Triples": "1- (Ilary Blasi, spouse, Francesco Totti {start time, 2005}{end time, 2022})",
     "Reasoning Steps": [
       {
         "Step": "Ilary Blasi and Francesco Totti's marriage began in 2005.",
-        "facts used in this step": "(Ilary Blast, spouse, Francesco Totti {start time, 2005})"
+        "facts used in this step": "(Ilary Blasi, spouse, Francesco Totti {start time, 2005})"
       },
       {
         "Step": "Ilary Blasi and Francesco Totti's marriage ended in 2022.",
-        "facts used in this step": "(Ilary Blast, spouse, Francesco Totti {end time, 2022})"
+        "facts used in this step": "(Ilary Blasi, spouse, Francesco Totti {end time, 2022})"
       },
       {
         "Step": "Ilary Blasi and Francesco Totti's marriage lasted 17 years, which is less than 25 years."
@@ -1750,14 +1750,14 @@
     "answer": true,
     "KG Entities": {
       "Laotian Civil War": "Q877450",
-      "Cheetah": "Q23907"
+      "cheetah": "Q23907"
     },
     "Inference Rule": "The longest lifespan of a cheetah must be longer than the duration of the Laotian Civil war to be possible for it to live during the entire Laotian Civil war.",
-    "KG Triples": "1- (Cheetah, longest observed lifespan, 20.5 year), 2- (Laotian Civil War, start time, 23 May 1959), 3- (Laotian Civil War, start time, 2 December 1975)",
+    "KG Triples": "1- (cheetah, longest observed lifespan, 20.5 year), 2- (Laotian Civil War, start time, 23 May 1959), 3- (Laotian Civil War, start time, 2 December 1975)",
     "Reasoning Steps": [
       {
         "Step": "The longest observed lifespan of a cheetah is 20.5 years.",
-        "facts used in this step": "(Cheetah, longest observed lifespan, 20.5 year)"
+        "facts used in this step": "(cheetah, longest observed lifespan, 20.5 year)"
       },
       {
         "Step": "The Laotian Civil War lasted from 23 May 1959 to 2 December 1975.",
@@ -1990,15 +1990,15 @@
       "GreenGo": "Q118978044"
     },
     "Inference Rule": "If GreenGo provides four wheel vehicles for its customers, the answer of this question will be true.",
-    "KG Triples": "1- (GreenGo, description, Hungary car sharing company)",
+    "KG Triples": "1- (GreenGo, is, Hungary car sharing company)",
     "Reasoning Steps": [
       {
         "Step": "GreenGo is a car sharing company in Hungary.",
-        "facts used in this step": "(GreenGo, description, Hungary car sharing company)"
+        "facts used in this step": "(GreenGo, is, Hungary car sharing company)"
       },
       {
         "Step": "Car sharing companies provide cars that are four wheel vehicles for their customers.",
-        "facts used in this step": "(GreenGo, description, Hungary car sharing company)"
+        "facts used in this step": "(GreenGo, is, Hungary car sharing company)"
       }
     ],
     "Reasoning Strategy": [
@@ -2217,25 +2217,25 @@
   },
   {
     "id": "S81",
-    "query": "Did Checheyikhen make a bigger family than Naser al-Din Shah Qajar?",
+    "query": "Did Chechiyegen make a bigger family than Naser al-Din Shah Qajar?",
     "answer": false,
     "KG Entities": {
       "Naser al-Din Shah Qajar": "Q159416",
-      "Checheyikhen": "Q7199764"
+      "Chechiyegen": "Q7199764"
     },
-    "Inference Rule": "If the number of spouses and children for Checheyikhen add up to a greater number than the number of spouses and children of Naser al-Din Shah Qajar, she had made a bigger family.",
-    "KG Triples": "1- (Checheyikhen, spouse, Turalji), 2- (Checheyikhen, child, Orghana), 3- (Checheyikhen, child, Huchuhadun), 4- (Checheyikhen, child, Buka-Timur), 5- (Checheyikhen, child, Bars buqa), 6- (Checheyikhen, child, Guyuk Khatun), 7- (Naser al-Din Shah Qajar, spouse, Monir al-Saltaneh), 8- (Naser al-Din Shah Qajar, spouse, Golin Khanum), 9- (Naser al-Din Shah Qajar, spouse, Amīna Aqdas), 10- (Naser al-Din Shah Qajar, spouse, Jeyran), 11- (Naser al-Din Shah Qajar, spouse,Khazan al-Doulah), 12- (Naser al-Din Shah Qajar, spouse, Anīs-al-dawla), 13- (Naser al-Din Shah Qajar, child, Mozaffar ad-Din Shah Qajar), 14- (Naser al-Din Shah Qajar, child, Kamran Mirza Nayeb es-Saltaneh), 15- (Naser al-Din Shah Qajar, child, Masud Mirza Zell-e Soltan), 16- (Naser al-Din Shah Qajar, child, Zahra Khanom Tadj es-Saltaneh), 17- (Naser al-Din Shah Qajar, child, Nosrat al-Din Mirza Salar es-Saltaneh), 18- (Naser al-Din Shah Qajar, child, Ahmad Mirza Azd es-Saltaneh), 19- (Naser al-Din Shah Qajar, child, Touran Agha Khanoum Qajar)",
+    "Inference Rule": "If the number of spouses and children for Chechiyegen add up to a greater number than the number of spouses and children of Naser al-Din Shah Qajar, she had made a bigger family.",
+    "KG Triples": "1- (Chechiyegen, spouse, Turalji), 2- (Chechiyegen, child, Orghana), 3- (Chechiyegen, child, Huchuhadun), 4- (Chechiyegen, child, Buka-Timur), 5- (Chechiyegen, child, Bars buqa), 6- (Chechiyegen, child, Guyuk Khatun), 7- (Naser al-Din Shah Qajar, spouse, Monir al-Saltaneh), 8- (Naser al-Din Shah Qajar, spouse, Golin Khanum), 9- (Naser al-Din Shah Qajar, spouse, Amīna Aqdas), 10- (Naser al-Din Shah Qajar, spouse, Jeyran), 11- (Naser al-Din Shah Qajar, spouse,Khazan al-Doulah), 12- (Naser al-Din Shah Qajar, spouse, Anīs-al-dawla), 13- (Naser al-Din Shah Qajar, child, Mozaffar ad-Din Shah Qajar), 14- (Naser al-Din Shah Qajar, child, Kamran Mirza Nayeb es-Saltaneh), 15- (Naser al-Din Shah Qajar, child, Masud Mirza Zell-e Soltan), 16- (Naser al-Din Shah Qajar, child, Zahra Khanom Tadj es-Saltaneh), 17- (Naser al-Din Shah Qajar, child, Nosrat al-Din Mirza Salar es-Saltaneh), 18- (Naser al-Din Shah Qajar, child, Ahmad Mirza Azd es-Saltaneh), 19- (Naser al-Din Shah Qajar, child, Touran Agha Khanoum Qajar)",
     "Reasoning Steps": [
       {
-        "Step": "Checheyikhen had five children and one spouse.",
-        "facts used in this step": "(Checheyikhen, spouse, Turalji), (Checheyikhen, child, Orghana), (Checheyikhen, child, Huchuhadun), (Checheyikhen, child, Buka-Timur), (Checheyikhen, child, Bars buqa), (Checheyikhen, child, Guyuk Khatun)"
+        "Step": "Chechiyegen had five children and one spouse.",
+        "facts used in this step": "(Chechiyegen, spouse, Turalji), (Chechiyegen, child, Orghana), (Chechiyegen, child, Huchuhadun), (Chechiyegen, child, Buka-Timur), (Chechiyegen, child, Bars buqa), (Chechiyegen, child, Guyuk Khatun)"
       },
       {
         "Step": "Naser al-Din Shah Qajar had seven children and six spouses.",
         "facts used in this step": "(Naser al-Din Shah Qajar, spouse, Monir al-Saltaneh), (Naser al-Din Shah Qajar, spouse, Golin Khanum), (Naser al-Din Shah Qajar, spouse, Amīna Aqdas), (Naser al-Din Shah Qajar, spouse, Jeyran), (Naser al-Din Shah Qajar, spouse, Khazan al-Doulah), (Naser al-Din Shah Qajar, spouse, Anīs-al-dawla), (Naser al-Din Shah Qajar, child, Mozaffar ad-Din Shah Qajar), (Naser al-Din Shah Qajar, child, Kamran Mirza Nayeb es-Saltaneh), (Naser al-Din Shah Qajar, child, Masud Mirza Zell-e Soltan), (Naser al-Din Shah Qajar, child, Zahra Khanom Tadj es-Saltaneh), (Naser al-Din Shah Qajar, child, Nosrat al-Din Mirza Salar es-Saltaneh), (Naser al-Din Shah Qajar, child, Ahmad Mirza Azd es-Saltaneh), (Naser al-Din Shah Qajar, child, Touran Agha Khanoum Qajar)"
       },
       {
-        "Step": "Checheyikhen had one spouse and five children, while Naser al-Din Shah Qajar had six spouses and seven children, so Naser al-Din Shah Qajar made a bigger family than Checheyikhen."
+        "Step": "Chechiyegen had one spouse and five children, while Naser al-Din Shah Qajar had six spouses and seven children, so Naser al-Din Shah Qajar made a bigger family than Chechiyegen."
       }
     ],
     "Reasoning Strategy": [
@@ -2273,7 +2273,7 @@
   {
     "id": "S83",
     "query": "Is it likely for Shappi Khorsandi to believe in the barzakh?",
-    "answer": true,
+    "answer": false,
     "KG Entities": {
       "Shappi Khorsandi": "Q4346087",
       "Barzakh": "Q809688"
@@ -2910,13 +2910,13 @@
   },
   {
     "id": "S108",
-    "query": "Would it be very likely for Mostafa Salimi to be familiar with Sholezard?",
+    "query": "Would it be very likely for Mostafa Salimi to be familiar with sholezard?",
     "answer": true,
     "KG Entities": {
       "Mostafa Salimi": "Q6916878",
       "sholezard": "Q20987994"
     },
-    "Inference Rule": "If Mostafa Salimi is familiar with the cuisine that Sholezard is part of it, it would be very likely for him to be familiar with it.  ",
+    "Inference Rule": "If Mostafa Salimi is familiar with the cuisine that sholezard is part of it, it would be very likely for him to be familiar with it.  ",
     "KG Triples": "1- (Mostafa Salimi, country of citizenship, Iran), 2- (sholezard, part of Iranian cuisine)",
     "Reasoning Steps": [
       {
@@ -2924,11 +2924,11 @@
         "facts used in this step": "(Mostafa Salimi, country of citizenship, Iran)"
       },
       {
-        "Step": "Sholezard is part of Iranian cuisine.",
+        "Step": "sholezard is part of Iranian cuisine.",
         "facts used in this step": "(sholezard, part of Iranian cuisine)"
       },
       {
-        "Step": "Iranians are typically familiar with Iranian cuisine, so it would be very likely for Mostafa Salimi to be familiar with Sholezard."
+        "Step": "Iranians are typically familiar with Iranian cuisine, so it would be very likely for Mostafa Salimi to be familiar with sholezard."
       }
     ],
     "Reasoning Strategy": [

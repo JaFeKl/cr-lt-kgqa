@@ -1,0 +1,25 @@
+[
+    {
+    "id": "S2",
+    "query": "Is Yui Yuigahama's pet a corgi?",
+    "answer": false,
+    "KG Entities": {
+      "Yui Yuigahama": "Q97644811"
+    },
+    "Inference Rule": "The breed of Yui Yagashima's pet must be identified as corgi for it to be a corgi.",
+    "KG Triples": "1- (Yui Yuigahama, has pet, Sablé), 2- (Sablé, animal breed, dachshund)",
+    "Reasoning Steps": [
+      {
+        "Step": "Yui Yuigahama has a pet named Sablé.",
+        "facts used in this step": "(Yui Yuigahama, has pet, Sablé)"
+      },
+      {
+        "Step": "The breed of Sablé is dachshund and not corgi.",
+        "facts used in this step": "(Sablé, animal breed, dachshund)"
+      }
+    ],
+    "Reasoning Strategy": [
+      "set inclusion"
+    ]
+  }
+]

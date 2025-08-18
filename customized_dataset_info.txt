@@ -1,0 +1,17 @@
+S9: - Retrieval Date 2023/10/20 because latest revisions include [en] label which was unavailable before (Q3202574)
+S25: - Retrieval Date 2023/09/24 because all of the data has been added on 2023/09/23 for "Chloe Forkroad" (Q122780737)
+S26: - Replaced Gamevcore with Dokoo (Q10267901) beacuse Gamevcore does not exist anymore
+S42: - Retrieval Date 2025/07/20 since "taxon common name" missing otherwise
+S64: - Retrieval Date 2025/03/20 english label has only been added in 04/2023
+S72: - Retrieval Date 2025/03/20 no data available before 06/2023
+S83 - Retrieval Date 2025/08/20 since "religion and world" view was missing
+S98 - Retrieval Date 2025/08/20 since "part of the series" was missing
+S108: - Changed questions to from "Sholezard" to "sholezard"
+S120: - Retrieval Date 2025/03/20 necessary triple only available since 12/2023
+S123: - Retrieval Date 2025/08/20 since "height" was missing
+S124: - Retrieval Date 2025/03/20 english label has only been added in 04/2023
+S133: - Retrieval Date 2025/08/20 since "medical condition" was missing
+S134: - Retrieval Date 2025/03/20 english label has only been added in 02/2023
+S159: - Retrieval Date 2025/08/20 since "religion and world" view was missing
+S182: - Retrieval Date 2025/03/20 english label has only been added in 01/2024
+
